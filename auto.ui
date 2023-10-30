@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1331</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>시간</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>포지션</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>진입가</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>목표가</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>손절가</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>수익률</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>비고</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>520</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

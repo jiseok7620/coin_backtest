@@ -1,0 +1,2401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1331</width>
+      <height>881</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>데이터가공</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>300</y>
+        <width>481</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>테스트 데이터 업로드</string>
+      </property>
+      <widget class="QComboBox" name="comboBox_jongmok2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>311</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>종목명</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>일자</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit_searchDate">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>131</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2022</year>
+         <month>8</month>
+         <day>2</day>
+        </datetime>
+       </property>
+       <property name="date">
+        <date>
+         <year>2022</year>
+         <month>8</month>
+         <day>2</day>
+        </date>
+       </property>
+       <property name="time">
+        <time>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+        </time>
+       </property>
+       <property name="minimumDateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2010</year>
+         <month>9</month>
+         <day>14</day>
+        </datetime>
+       </property>
+       <property name="maximumDate">
+        <date>
+         <year>2023</year>
+         <month>12</month>
+         <day>31</day>
+        </date>
+       </property>
+       <property name="currentSection">
+        <enum>QDateTimeEdit::MonthSection</enum>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy-MM-dd hh:mm:ss</string>
+       </property>
+       <property name="currentSectionIndex">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_testStart">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>20</y>
+         <width>101</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>테스트시작</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="dateTimeEdit_searchDate_2">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>50</y>
+         <width>131</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2022</year>
+         <month>8</month>
+         <day>3</day>
+        </datetime>
+       </property>
+       <property name="date">
+        <date>
+         <year>2022</year>
+         <month>8</month>
+         <day>3</day>
+        </date>
+       </property>
+       <property name="time">
+        <time>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+        </time>
+       </property>
+       <property name="currentSection">
+        <enum>QDateTimeEdit::MonthSection</enum>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy-MM-dd hh:mm:ss</string>
+       </property>
+       <property name="currentSectionIndex">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>~</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>371</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Californian FB</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>※ 코인 시간으로 조회하기 위해서는 현재시간에서 9시간 더해서 조회</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>백테스트</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1211</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>[[전체설정]]</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>이동평균선 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_avgline">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>단순</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>지수</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>주가 기준 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_price">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>50</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>종가</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>(시+고+저)/3</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>50</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>강도 기준 지표 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_strength">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>50</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>RSI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sto</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>80</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>과이격 기준 이평 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_separ">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>80</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>20avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>120avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>200avg</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>20</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>이평선 터치 이평 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_avgtouch">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>20</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>20avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>120avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>200avg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>240avg</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>포지션 설정</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_position">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>76</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>매수</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>매도</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>20</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>전,후 기준 봉수</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_bar">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>20</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>200</number>
+       </property>
+       <property name="singleStep">
+        <number>5</number>
+       </property>
+       <property name="value">
+        <number>20</number>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>1311</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>매수포지션</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1291</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step1. 1차 매수 준비 신호 파악</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 전 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox4">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>40</y>
+           <width>141</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(4) 과이격</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox6">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(6) 이평선 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox8">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(8) 전 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox5">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>60</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(5) 강도 침체</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(3) 당일 예상 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 전일 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox9">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(9) 전일 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox10">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>40</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(10) 당일 예상 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox7">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(7) 당일 시가 터치</string>
+         </property>
+        </widget>
+        <widget class="Line" name="line">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>20</y>
+           <width>16</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 회귀 성질을 이용한 매매기법</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>20</y>
+           <width>131</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 회귀 + 추세 둘다가능</string>
+         </property>
+        </widget>
+        <widget class="Line" name="line_2">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>16</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_60">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>20</y>
+           <width>211</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 추세 지속의 성질을 이용한 매매기법</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>1291</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step2. 1차 조건 설정</string>
+        </property>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>191</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>봉조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_2_1">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_2_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>양봉</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_2_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>음봉</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_2_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>101</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>십자가봉 제외</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>130</y>
+           <width>191</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>거래량조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_3_1">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_29">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>20</y>
+           <width>191</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>강도, 이격도 조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_4_1">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_4_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>강도 n 이하</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_4_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>111</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>이격도 n 이상</string>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_4_1">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>50</y>
+            <width>62</width>
+            <height>16</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_4_2">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>80</y>
+            <width>62</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_30">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>20</y>
+           <width>281</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>추세 조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_5_1">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_5_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>이평선 배열</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_5_3">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>70</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>정배열</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>역배열</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_5_1">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>20avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>120avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>200avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>240avg</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_5_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>70</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>20avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>120avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>200avg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>240avg</string>
+           </property>
+          </item>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>410</y>
+          <width>391</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step3. 2차 진입 신호 파악</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_6_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>201</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 강도 안정화 시[침체 → 안정]</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(3) 1차 신호의 종가 돌파 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>241</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 과이격도 안정화 시[과이격 → 안정]</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(4) 1차 신호의 고가 돌파 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(5) MACD 골크 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(6) 5이평이 10이평 골크 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>없음</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>980</x>
+          <y>410</y>
+          <width>321</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step5. 손익가, 손절가 설정</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_8_1">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 고정 비율</string>
+         </property>
+        </widget>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>62</width>
+           <height>16</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_8_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 피보나치</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_17">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>410</y>
+          <width>561</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step4. 2차 진입 조건 설정</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_7_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>없음</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>매도포지션</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_19">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>711</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step2. 1차 조건 설정</string>
+        </property>
+        <widget class="QGroupBox" name="groupBox_20">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>191</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>봉조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_46">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_48">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>20</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>위꼬리 터치</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_49">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>40</y>
+            <width>101</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>아래꼬리 터치</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_50">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>60</y>
+            <width>71</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>몸통터치</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_78">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>양봉</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_79">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>음봉</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_80">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>101</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>십자가봉 제외</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_21">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>130</y>
+           <width>191</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>거래량조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_51">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_52">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>71</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>전봉 n배</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_53">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>당일평균 n배</string>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>50</y>
+            <width>62</width>
+            <height>16</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>80</y>
+            <width>62</width>
+            <height>16</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_31">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>20</y>
+           <width>191</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>강도, 이격도 조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_54">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_55">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>강도 n 이하</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_56">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>111</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>이격도 n 이상</string>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>50</y>
+            <width>62</width>
+            <height>16</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>100</y>
+            <width>62</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_15">
+          <property name="geometry">
+           <rect>
+            <x>25</x>
+            <y>100</y>
+            <width>91</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_32">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>20</y>
+           <width>281</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>추세 조건</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_85">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>없음</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_86">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>이평선 배열</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_87">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>110</y>
+            <width>131</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>이평선 기울기 n이상</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_88">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>160</y>
+            <width>161</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>고점,저점선 기울기 n이상</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_16">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_17">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>70</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_18">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>70</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_19">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>130</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+          <property name="geometry">
+           <rect>
+            <x>201</x>
+            <y>130</y>
+            <width>71</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_20">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>180</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_21">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>180</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>180</y>
+            <width>71</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>560</y>
+          <width>711</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step5. 손익가, 손절가 설정</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_57">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 고정 비율</string>
+         </property>
+        </widget>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>62</width>
+           <height>16</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_58">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>301</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 1차신호와 2차신호 사이의 고가 ~ 집입가의 크기</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_23">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>410</y>
+          <width>311</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step4. 2차 진입 조건 설정</string>
+        </property>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>60</y>
+           <width>131</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>테스트 하면서 구해보기</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_59">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>없음</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_24">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>711</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step1. 1차 매도 준비 신호 파악</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 전 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>40</y>
+           <width>141</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(4) 과이격</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_8">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 이평선 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_9">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>40</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 전 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_14">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>60</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(5) 강도 과열</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_29">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(3) 당일 예상 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 전일 고점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_16">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 전일 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_17">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>40</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(3) 당일 예상 저점 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_60">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>60</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 당일 시가 터치</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_18">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>60</y>
+           <width>141</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(4) 볼린저밴드 이탈</string>
+         </property>
+        </widget>
+        <widget class="Line" name="line_5">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>20</y>
+           <width>16</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_36">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 회귀 성질을 이용한 매매기법</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>20</y>
+           <width>131</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 회귀 + 추세 둘다가능</string>
+         </property>
+        </widget>
+        <widget class="Line" name="line_6">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>16</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_73">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>20</y>
+           <width>211</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string># 추세 지속의 성질을 이용한 매매기법</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_25">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>410</y>
+          <width>391</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Step3. 2차 진입 신호 파악</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_61">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>201</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(1) 강도 안정화 시[과열 → 안정]</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_62">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(3) 1차 신호의 종가 돌파 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_89">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>241</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(2) 과이격도 안정화 시[과이격 → 안정]</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_90">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(4) 1차 신호의 저가 돌파 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_63">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>121</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(5) MACD 데크 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_91">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>171</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>(6) 5이평이 10이평 데크 시</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_64">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>없음</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="push_start">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>60</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>시작</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="combo_all">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>수동</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>자동</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>결과보기</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1201</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>datetime</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>open</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>high</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>low</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>close</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>volume</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>condition1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>signal1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>condition2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>signal2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>손익가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>손절가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>결과</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="push_excelsave">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>320</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>엑셀로 저장</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>360</y>
+        <width>1301</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>세부 정보 표시창</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="push_chartsave">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>240</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>차트 저장</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="push_chartview">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>210</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>차트 보기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="push_info">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>290</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>세부정보표시</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>0</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>선택한 행</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_selectrow">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>20</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_76">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>170</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>전봉수</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_77">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>190</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>후봉수</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_beforebarnum">
+      <property name="geometry">
+       <rect>
+        <x>1270</x>
+        <y>170</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>5000</number>
+      </property>
+      <property name="singleStep">
+       <number>10</number>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_afterbarnum">
+      <property name="geometry">
+       <rect>
+        <x>1270</x>
+        <y>190</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>5000</number>
+      </property>
+      <property name="singleStep">
+       <number>10</number>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_chartview">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>150</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>전체</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>부분</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_14">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>270</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_15">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>130</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_16">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>40</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
